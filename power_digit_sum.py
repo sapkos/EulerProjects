@@ -21,3 +21,7 @@ def power2(n):
     return arr
 
 sum(power2(1000))
+
+
+# mozna tez tak
+sum([int (i) for i in str(2**1000)])
